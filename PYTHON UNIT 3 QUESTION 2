@@ -1,0 +1,17 @@
+celsius_to_fahrenheit.py
+def convert(c):
+    return (c * 9/5) + 32
+fahrenheit_to_celsius.py
+def convert(f):
+    return (f - 32) * 5/9
+celsius_to_kelvin.py
+def convert(c):
+    return c + 273.15
+main.py
+from temperature import celsius_to_fahrenheit
+from temperature import fahrenheit_to_celsius
+from temperature import celsius_to_kelvin
+
+print(celsius_to_fahrenheit.convert(30))
+print(fahrenheit_to_celsius.convert(86))
+print(celsius_to_kelvin.convert(30))
